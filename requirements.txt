@@ -3,5 +3,6 @@ fastapi
 
 cassandra-driver
 python-dotenv
+email-validator
 
-typed_ast
+argon2-cffi
