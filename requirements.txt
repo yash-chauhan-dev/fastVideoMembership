@@ -1,0 +1,7 @@
+uvicorn
+fastapi
+
+cassandra-driver
+python-dotenv
+
+typed_ast

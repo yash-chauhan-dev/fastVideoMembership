@@ -1,0 +1,7 @@
+venv
+.vscode
+notes.md
+app/unencrypted/
+.env
+*.pyc
+*.pyo
