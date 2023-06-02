@@ -1,8 +1,8 @@
 from cassandra.cqlengine.management import sync_table
 from fastapi import FastAPI
 
-from . import db
-from .users.models import User
+from app import db
+from app.users.models import User
 
 app = FastAPI()
 DB_SESSION = None

@@ -2,10 +2,9 @@ import uuid
 
 from cassandra.cqlengine import columns
 from cassandra.cqlengine.models import Model
+from users import security, validators
 
 from app.config import get_settings
-
-from . import security, validators
 
 settings = get_settings()
 
